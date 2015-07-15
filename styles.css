@@ -14,10 +14,16 @@
     margin: 0;
     font-family: Helvetica;
   }
+  p img {
+    width: 100%;
+    text-align: center;
+    margin:0;
+    padding: 0;
+  }
   .post {
   }
   .post__header {
-    background: url(images/zombie_cat.png);
+    background: url(images/zombie_cat.png) ;
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -25,6 +31,8 @@
     bottom: 0;
     width: 50%;
     color: #FFF;
+    text-shadow: -1px -1px black;
+    padding: 20px 0px 0px 30px;
   }
   .post__headerNav {
     list-style: none;
@@ -47,8 +55,10 @@
   .post__content {
     width: 50%;
     margin-left: 50%;
+    margin-top: 0px;
     min-height: 200px;
     padding: 40px;
+    padding-top: 0px;
     line-height: 27px;
     color: #6D6D6D;
   }
@@ -64,6 +74,7 @@
   .post__content {
     width: 100%;
     padding: 20px;
+    padding-top: 0px;
     margin: 0px;
   }
 }
